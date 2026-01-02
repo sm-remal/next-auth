@@ -32,5 +32,10 @@ export const postUser = async(payload) => {
             success: true,
             message: `User created with ${result.insertedId.toString()}`,
         }
+    }else{
+        return {
+            success: false,
+            message: "Something went wrong. Try again"
+        }
     }
 }
