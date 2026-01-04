@@ -3,7 +3,7 @@ import React from 'react';
 const PrivatePage = () => {
     return (
         <div>
-            <h2>This is Private page</h2>
+            <h2 className='text-5xl text-center py-16'>This is Private page</h2>
         </div>
     );
 };
